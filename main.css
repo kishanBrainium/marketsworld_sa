@@ -166,7 +166,7 @@ top: -57px;
 .slidearea{height:620px; background: url(images/top-bg.jpg) bottom center no-repeat; padding-top:55px;}
 .slidearea h1{background:#1b1b1b; text-transform: uppercase; font-size:33px; line-height: 38px; padding:20px; border-radius: 8px; overflow: hidden; font-weight: 500; margin-top:0;}
 .slidearea h1 div{float:left;}
-.slidearea h1 span{color:#be0000;}
+.slidearea h1 span{color:#e44538;}
 .slidearea h1 img{float:left; padding: 0 10px;}
 .slidearea .text{float:left; width:50%;}
 .slidearea .reg{float:right; width:50%; text-align: right;}

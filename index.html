@@ -59,7 +59,7 @@
 				<div class="content">
 					<div class="close-login">X</div>
 					<label class="login-error"><b>Invalid email or password.</b></label>
-					<form id="login_form" data-remote="true" action="http://localhost:3000/users/sign_in_south_africa" method="post">
+					<form id="login_form" action="https://www.marketsworld.com/users/sign_in_south_africa" method="post">
 						<input class="input" id="user_login_email" name="user[email]" placeholder="E-MAIL" size="" type="email" value="" required>
 						<input autocomplete="off" class="input" id="user_login_password" name="user[password]" placeholder="PASSWORD" size="" type="password" required>
 						<input type="hidden" name="south_africa_login" value="true">
@@ -101,7 +101,7 @@
 								<img src="images/icon-red-1.png" alt="100% Start Up Bonus" /><div><span>100% Start Up Bonus</span>Up to $1000</div>
 							</div>
 							<div>
-								<img src="images/icon-red-2.png" alt="$50 risk free trades for new traders" /><div><span>Licensed &amp; Regulated</span>In the Isle of Man</div>
+								<img src="images/iom.png" alt="$50 risk free trades for new traders" /><div><span>Licensed &amp; Regulated</span>In the Isle of Man</div>
 							</div>
 						</div>
 
@@ -122,6 +122,7 @@
 							<div class="reg-icons"><img src="images/reg-icons.png" alt="Register with Marketsworld South Africa"/></div>
 							<div class="splash-licensed"><img src="images/licensed-broker.png" alt="MarketsWorld Licensed Broker"/></div>
 							<form name="registration_1" id="registration_one" class="registration_1" action="https://www.marketsworld.com/users" method="post">
+								<input type="hidden" name="mw_sa_form" value="true">
 								<div class="reg-content reg-step-1 first_part_1">
 									<div class="steps"><img src="images/reg-step-1.png"/></div>
 									<div>
@@ -730,7 +731,8 @@
 				</ul>
 				<div class="reg-header">Sign up in 3 steps</div>
 				<div class="overlay-reg-box">
-						<form name="registration_2" id="registration_two" class="registration_2" action="https://www.marketsworld.com/users" method="post">
+					<form name="registration_2" id="registration_two" class="registration_2" action="https://www.marketsworld.com/users" method="post">
+						<input type="hidden" name="mw_sa_form" value="true">
 						<div class="reg-content reg-step-1 first_part_2">
 						
 							<label>Username</label>
@@ -1131,7 +1133,7 @@
 		      if(err[1]=="invalid")
 		      {
 		      	$(".login-form").css({"display":"block"});
-		        $(".login-error").css({"display":"block"});
+		        $(".login-error").css({"display":"inline-block"});
 		      }
 		    }
 
