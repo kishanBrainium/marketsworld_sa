@@ -465,7 +465,7 @@ main .text{font-size:16px; line-height: 24px; text-align: left; color:#3c3c3c;}
 
 
 footer{min-height:110px; height: auto; background:#282828; color:#FFF; clear: both; display: block; font-size:14px; line-height: 16px; padding: 20px 0;}
-footer .content div:first-of-type{float:left; width:30%; text-align: left;}
+footer .content div:first-of-type{float:left; width:60%; text-align: left;}
 footer .content div:last-of-type{float:right; width:30%; text-align: right;}
 footer .content div:first-of-type strong{font-weight: 600; display: block;}
 @media(max-width: 1190px) {
